@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="320dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/task_detail_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Task Icon" />
+
+    <TextView
+        android:id="@+id/task_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary_light"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/task_detail_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/text_secondary_light"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/task_detail_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/vibrant_purple"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="end">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_cancel"
+            style="@style/Widget.NeuroTrack.SecondaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Fechar"
+            android:layout_marginEnd="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_complete_task"
+            style="@style/Widget.NeuroTrack.PrimaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Completar" />
+    </LinearLayout>
+</LinearLayout>
+

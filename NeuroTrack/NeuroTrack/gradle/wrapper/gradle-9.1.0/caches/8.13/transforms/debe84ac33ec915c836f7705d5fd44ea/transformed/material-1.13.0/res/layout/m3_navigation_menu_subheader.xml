@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/navigation_menu_subheader_label"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingHorizontal="@dimen/m3_navigation_subheader_horizontal_padding"
+  android:paddingVertical="@dimen/m3_navigation_subheader_vertical_padding"
+  android:layout_marginStart="@dimen/m3_navigation_content_horizontal_margin"
+  android:layout_marginTop="@dimen/m3_navigation_subheader_top_margin"
+  android:gravity="center_vertical|start"
+  android:ellipsize="end"
+  android:filterTouchesWhenObscured="true"
+  android:maxLines="1"/>
+

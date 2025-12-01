@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/white_background"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/emojiTarefa"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="🦷"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@drawable/rounded_background_light_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/tituloTarefa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Escovar os dentes"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_text"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/emojiTarefa"
+            app:layout_constraintEnd_toStartOf="@id/checkIcon"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/emojiTarefa"
+            app:layout_constraintTop_toBottomOf="@id/tituloTarefa"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                app:tint="@color/gray_text"/>
+
+            <TextView
+                android:id="@+id/horarioTarefa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00"
+                android:textSize="14sp"
+                android:textColor="@color/gray_text"
+                android:layout_marginStart="4dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/checkIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/radiobutton_off_background"
+            app:tint="@color/gray_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
+

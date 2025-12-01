@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595917032102",
+    "project_id": "neurotrack-f20dd",
+    "storage_bucket": "neurotrack-f20dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595917032102:android:9a70c6965e70b1db698267",
+        "android_client_info": {
+          "package_name": "com.example.neurotrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8_d3LuT7KqD0RanOzTTB6uT3ld49QVJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

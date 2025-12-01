@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:width="@dimen/mtrl_switch_track_width"
+  android:height="@dimen/mtrl_switch_track_height"
+  android:viewportWidth="@integer/mtrl_switch_track_viewport_width"
+  android:viewportHeight="@integer/mtrl_switch_track_viewport_height"
+  tools:ignore="NewApi">
+
+  <path
+    android:name="outline"
+    android:strokeColor="?attr/colorOutline"
+    android:strokeWidth="2"
+    android:pathData="@string/mtrl_switch_track_decoration_path" />
+
+</vector>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  
+
+  
+  <item android:alpha="@dimen/m3_comp_filled_card_pressed_state_layer_opacity"
+        android:color="?attr/colorOnSurfaceVariant"
+        android:state_pressed="true" android:state_checked="true"/>
+  <item android:alpha="@dimen/m3_comp_filled_card_focus_state_layer_opacity"
+        android:color="?attr/colorSecondary"
+        android:state_focused="true" android:state_checked="true"/>
+  <item android:alpha="@dimen/m3_comp_filled_card_hover_state_layer_opacity"
+        android:color="?attr/colorSecondary"
+        android:state_hovered="true" android:state_checked="true"/>
+  <item android:alpha="@dimen/m3_ripple_default_alpha"
+        android:color="?attr/colorSecondary"
+        android:state_checked="true"/>
+
+  
+
+  
+  <item android:alpha="@dimen/m3_comp_filled_card_pressed_state_layer_opacity"
+        android:color="?attr/colorSecondary"
+        android:state_checkable="true" android:state_pressed="true"/>
+  
+  <item android:alpha="@dimen/m3_comp_filled_card_pressed_state_layer_opacity"
+        android:color="?attr/colorOnSurfaceVariant"
+        android:state_checkable="false" android:state_pressed="true"/>
+  <item android:alpha="@dimen/m3_comp_filled_card_focus_state_layer_opacity"
+        android:color="?attr/colorOnSurfaceVariant"
+        android:state_focused="true"/>
+  <item android:alpha="@dimen/m3_comp_filled_card_hover_state_layer_opacity"
+        android:color="?attr/colorOnSurfaceVariant"
+        android:state_hovered="true"/>
+  <item android:alpha="@dimen/m3_comp_filled_card_dragged_state_layer_opacity"
+        android:color="?attr/colorOnSurfaceVariant"/>
+
+</selector>
+

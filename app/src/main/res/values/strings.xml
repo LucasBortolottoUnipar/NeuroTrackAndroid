@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">NeuroTrack</string>
+
+    
+    <string name="app_title">🧠 NeuroTrack - Minha Rotina</string>
+    <string name="nivel_inicial">Nível 1 - XP: 0/100</string>
+    <string name="tarefas_completas">Tarefas completas: 0/4</string>
+    <string name="titulo_tarefas">📝 Minhas Tarefas de Hoje:</string>
+    <string name="botao_resetar">🔄 Resetar Tarefas</string>
+    <string name="mensagem_incentivo">💪 Você consegue! Marque cada tarefa conforme vai completando!</string>
+
+    
+    <string name="tarefa_dentes">🦷 Escovar os dentes</string>
+    <string name="tarefa_cafe">☕ Tomar café</string>
+    <string name="tarefa_cama">🛌️ Arrumar a cama</string>
+    <string name="tarefa_banho">🚿 Tomar banho</string>
+
+    
+    <string name="daily_routine">Rotina de hoje</string>
+    <string name="good_morning">Bom dia</string>
+    <string name="good_afternoon">Boa tarde</string>
+    <string name="good_evening">Boa noite</string>
+    <string name="level">Nível</string>
+    <string name="points">Pontos</string>
+
+    
+    <string name="brush_teeth">Escovar os dentes</string>
+    <string name="drink_coffee">Tomar café</string>
+    <string name="make_bed">Arrumar a cama</string>
+    <string name="take_shower">Tomar banho</string>
+    <string name="task_completed">Tarefa concluída!</string>
+    <string name="task_pending">Tarefa pendente</string>
+
+    
+    <string name="get_toothbrush">Pegar a escova de dente;</string>
+    <string name="put_toothpaste">Pegar a pasta de dente na escova;</string>
+    <string name="close_toothpaste">Fechar a pasta de dente;</string>
+    <string name="store_toothpaste">Guardar a pasta de dente;</string>
+    <string name="brush_teeth_action">Escovar os dentes;</string>
+    <string name="rinse_mouth">Enxaguar a boca com água;</string>
+    <string name="store_toothbrush">Guardar a escova de dentes.</string>
+
+    
+    <string name="menu">Menu</string>
+    <string name="achievements">Conquistas</string>
+    <string name="calendar">Calendário</string>
+    <string name="settings">Configurações</string>
+
+    
+    <string name="neurotrack_logo">Logo do NeuroTrack</string>
+    <string name="parent_avatar">Avatar dos Pais</string>
+    <string name="child_avatar">Avatar da Criança</string>
+    <string name="level_badge">Distintivo de Nível %1$d</string>
+    <string name="task_checkbox">Marcar tarefa como concluída</string>
+
+    
+    <string name="great_job">Ótimo trabalho!</string>
+    <string name="keep_going">Continue assim!</string>
+    <string name="you_are_amazing">Você é incrível!</string>
+    <string name="almost_done">Quase terminando!</string>
+    <string name="well_done">Muito bem!</string>
+
+    
+    <string name="morning_time">08:00</string>
+    <string name="coffee_time">08:30</string>
+    <string name="bed_time">09:00</string>
+    <string name="shower_time">09:30</string>
+
+    
+    <string name="theme_default">Padrão</string>
+    <string name="theme_cat">Gato</string>
+    <string name="theme_dog">Cachorro</string>
+    <string name="theme_selection">Escolher Tema</string>
+
+    
+    <string name="loading">Carregando…</string>
+    <string name="error">Erro</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="save">Salvar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="add">Adicionar</string>
+    <string name="done">Concluído</string>
+
+    
+    <string name="parent_profile_name">José Claudio Pai</string>
+    <string name="child_profile_name">José Claudio Filho</string>
+</resources>
+

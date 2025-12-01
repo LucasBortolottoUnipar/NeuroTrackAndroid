@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="primary_blue">#4A90E2</color>
+    <color name="primary_blue_light">#7BB3F0</color>
+    <color name="primary_blue_dark">#2E5B8A</color>
+
+    
+    <color name="mint_green">#56D4A8</color>
+    <color name="mint_green_light">#7EE0C0</color>
+    <color name="mint_green_dark">#3BA577</color>
+
+    <color name="vibrant_purple">#8B5CF6</color>
+    <color name="vibrant_purple_light">#A78BFA</color>
+    <color name="vibrant_purple_dark">#6D28D9</color>
+
+    
+    <color name="accent_orange">#FF8A65</color>
+    <color name="accent_yellow">#FFD54F</color>
+    <color name="accent_yellow_bright">#FFEB3B</color>
+    <color name="accent_light">#7EE0C0</color>
+
+    
+    <color name="background_primary_light">#F8FAFC</color>
+    <color name="background_secondary_light">#FFFFFF</color>
+    <color name="background_tertiary_light">#E2E8F0</color>
+    <color name="input_background">#F1F5F9</color>
+    <color name="input_border">#CBD5E1</color>
+
+    
+    <color name="background_primary_dark">#0F172A</color>
+    <color name="background_secondary_dark">#1E293B</color>
+    <color name="background_tertiary_dark">#334155</color>
+
+    
+    <color name="text_primary_light">#1E293B</color>
+    <color name="text_secondary_light">#64748B</color>
+    <color name="text_tertiary_light">#94A3B8</color>
+
+    <color name="text_primary_dark">#F1F5F9</color>
+    <color name="text_secondary_dark">#CBD5E1</color>
+    <color name="text_tertiary_dark">#94A3B8</color>
+
+    
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+
+    
+    <color name="xp_bar">#FFD700</color>
+    <color name="level_badge">#FF6B35</color>
+    <color name="streak_fire">#FF4757</color>
+
+    
+    <color name="morning_sun">#FDD835</color>
+    <color name="afternoon_sky">#42A5F5</color>
+    <color name="evening_moon">#AB47BC</color>
+
+    
+    <color name="button_pressed">#E2E8F0</color>
+    <color name="card_elevated">#FFFFFF</color>
+    <color name="divider">#E2E8F0</color>
+
+    
+    <color name="overlay_light">#80FFFFFF</color>
+    <color name="overlay_dark">#80000000</color>
+
+    
+    
+    <color name="cat_primary">#FF9A9E</color>
+    <color name="cat_secondary">#FECFEF</color>
+
+    
+    <color name="dog_primary">#8FD3F4</color>
+    <color name="dog_secondary">#84FAB0</color>
+
+    
+    <color name="gradient_start">#4A90E2</color>
+    <color name="gradient_end">#8B5CF6</color>
+
+    
+    <color name="neurotrack_blue">#4A90E2</color>
+    <color name="neurotrack_blue_dark">#2E5B8A</color>
+    <color name="button_primary_blue">#1DA1BC</color>
+
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="nt_background">#D7C9FF</color>
+
+    
+    <color name="light_blue_background">#BAE6FD</color>
+    <color name="purple_primary">#8B5CF6</color>
+    <color name="blue_secondary">#3B82F6</color>
+    <color name="yellow_accent">#FBBF24</color>
+    <color name="green_accent">#10B981</color>
+    <color name="white_background">#FFFFFF</color>
+    <color name="gray_text">#6B7280</color>
+    <color name="dark_text">#1F2937</color>
+
+</resources>
+

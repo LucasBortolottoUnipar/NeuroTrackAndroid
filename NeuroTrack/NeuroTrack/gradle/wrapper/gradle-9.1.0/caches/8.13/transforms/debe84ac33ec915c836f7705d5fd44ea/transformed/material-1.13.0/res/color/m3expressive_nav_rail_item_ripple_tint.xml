@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  
+  <item android:alpha="@dimen/m3_ripple_pressed_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_active_pressed_state_layer_color"
+        android:state_pressed="true" android:state_selected="true"/>
+  <item android:alpha="@dimen/m3_ripple_focused_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_active_focused_state_layer_color"
+        android:state_focused="true" android:state_selected="true"/>
+  <item android:alpha="@dimen/m3_ripple_hovered_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_active_hovered_state_layer_color"
+        android:state_hovered="true" android:state_selected="true"/>
+
+  
+  <item android:alpha="@dimen/m3_ripple_pressed_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_inactive_pressed_state_layer_color"
+        android:state_pressed="true"/>
+  <item android:alpha="@dimen/m3_ripple_focused_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_inactive_focused_state_layer_color"
+        android:state_focused="true"/>
+  <item android:alpha="@dimen/m3_ripple_hovered_alpha"
+        android:color="@macro/m3_comp_nav_rail_item_inactive_hovered_state_layer_color"
+        android:state_hovered="true"/>
+  <item android:color="@android:color/transparent"/>
+</selector>
+

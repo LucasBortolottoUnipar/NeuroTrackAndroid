@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:drawable="@drawable/mtrl_ic_check_mark"
+  tools:ignore="NewApi">
+  <target android:name="@string/mtrl_checkbox_button_icon_path_group_name">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@integer/m3_sys_motion_duration_medium3"
+        android:interpolator="?attr/motionEasingEmphasizedDecelerateInterpolator"
+        android:propertyName="scaleX"
+        android:valueFrom="0.6"
+        android:valueTo="1.0"
+        android:valueType="floatType"/>
+    </aapt:attr>
+  </target>
+  <target android:name="@string/mtrl_checkbox_button_icon_path_group_name">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@integer/m3_sys_motion_duration_medium3"
+        android:interpolator="?attr/motionEasingEmphasizedDecelerateInterpolator"
+        android:propertyName="scaleY"
+        android:valueFrom="0.6"
+        android:valueTo="1.0"
+        android:valueType="floatType"/>
+    </aapt:attr>
+  </target>
+  <target android:name="@string/mtrl_checkbox_button_icon_path_name">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@integer/m3_sys_motion_duration_medium3"
+        android:interpolator="?attr/motionEasingEmphasizedDecelerateInterpolator"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:valueType="floatType"/>
+    </aapt:attr>
+  </target>
+</animated-vector>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:color="@macro/m3_comp_navigation_drawer_active_indicator_color" android:state_activated="true"/>
+  <item android:color="@macro/m3_comp_navigation_drawer_active_indicator_color" android:state_checked="true"/>
+  <item android:color="@android:color/transparent"/>
+</selector>
+
